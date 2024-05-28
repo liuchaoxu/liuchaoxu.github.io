@@ -46,4 +46,13 @@ features:
   - title: 功能 9
     details: 还没想好！
 ---
+<html>
+<head>
+
+<meta name="msvalidate.01" content="2E6A808EF7AA0EED7BBF46B648567F05" />
+</head>
+<body>
+
+</body>
+</html>
 
