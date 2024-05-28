@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as t}from"./chunks/framework.CpNIRa07.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/docs/Mysql.md","filePath":"docs/docs/Mysql.md","lastUpdated":1716909403000}'),o={name:"docs/docs/Mysql.md"};function a(c,d,r,n,l,p){return t(),s("div")}const m=e(o,[["render",a]]);export{i as __pageData,m as default};
