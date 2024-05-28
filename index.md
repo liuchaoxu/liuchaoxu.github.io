@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Quick Home"
   text: "Created by liuchaoxu"
-  tagline: 欢迎来到我的个人主站！！！
+  tagline: 欢迎！
   image:
     src: /image/主页.png
     alt: VitePress
