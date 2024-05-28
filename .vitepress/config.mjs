@@ -4,7 +4,7 @@ import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 因为‘https://liuchaoxu.github.io/quick-home’所以需要添加‘/quick-home’如果项目名就是‘liuchaoxu.github.io’则不用
-  base:"/quick-home",
+  // base:"/quick-home",
   head: [['link', {rel: 'icon', href: '/favicon.ico'}]],
   vite: {
     plugins: [
