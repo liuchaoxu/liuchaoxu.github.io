@@ -14,10 +14,18 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          repository: liuchaoxu/liuchaoxu.github.io
+          token: ${{ secrets.Actions_Token_DEPLOY_TO_PAGES }}
+          submodules: true
+      - name: Pull & update submodules recursively
+        run: |
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
+          
       - uses: actions/setup-node@v3
         with:
           node-version: 20
-         # cache: npm
+          cache: npm
       - name: Install dependencies
         run: npm install
  
