@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.gP_soUmW.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/Nginx配置文件.md","filePath":"docs/Nginx配置文件.md"}'),o={name:"docs/Nginx配置文件.md"};function n(s,c,r,_,i,d){return a(),t("div")}const f=e(o,[["render",n]]);export{m as __pageData,f as default};
