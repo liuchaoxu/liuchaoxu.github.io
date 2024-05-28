@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 // 引入自动生成侧边栏插件
-import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar'
+// import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({//markdown配置
   markdown: {
@@ -24,14 +24,19 @@ export default defineConfig({//markdown配置
       // ['link',{ rel: 'icon', href: '/vitepress/logo.png'}], //部署到vitepress仓库
   ],
   lastUpdated: true,
-  vite: {
-    plugins: [
-      AutoSidebar({
-        path: './',
-        collapsed: false,
-        ignoreList: ['.obsidian', '.git', 'node_modules']
-      })
-    ]},
+  // 自动侧边栏配置
+  // vite: {
+  //   plugins: [
+  //     AutoSidebar({
+  //       path: './',
+  //       collapsed: true,
+  //       ignoreList: [
+  //           '.obsidian',
+  //           '.git',
+  //           'node_modules'
+  //       ]
+  //     })
+  //   ]},
   title: "Quick Home",
   description: "Created by liuchaoxu",
   themeConfig: {
@@ -59,7 +64,28 @@ export default defineConfig({//markdown配置
       }
     ],
 
-    sidebar: [],
+    sidebar: {
+      "/markdown": {
+        items: [
+          {text: "关于liuchaoxu", link: "/markdown/About-me"},
+          {text: "关于本站", link: "/markdown/About-site"},
+          {text: "联系作者", link: "/markdown/Contact-me"},
+          {text: "折腾笔记", link: "/markdown/Fiddle-note"},
+        ]
+      },
+      "/docs/MySQL": {
+        items: [
+          {text: 'MySQL索引', link:"/docs/MySQL/MySQL索引"},
+
+        ]
+      },
+      "/docs/Nginx": {
+        items: [
+          {text: 'Nginx配置文件', link:"/docs/Nginx/Nginx配置文件"},
+
+        ]
+      }
+    },
 
     // 右上角社交链接
     socialLinks: [
