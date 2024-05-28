@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+import './style/index.css'
 import AboutMe from "../component/AboutMe.vue";
 /** @type {import('vitepress').Theme} */
 export default {

@@ -11,7 +11,7 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: 关于我
+      text: 关于liuchaoxu
       link: /markdown/About-me
     - theme: alt
       text: 关于本站
@@ -20,8 +20,8 @@ hero:
       text: 联系作者
       link: /markdown/Contact-me
     - theme: alt
-      text: docs-README
-      link: /docs/README
+      text: Article
+      link: /docs/index
     - theme: alt
       text: 友链
       link: /docs/friend-link

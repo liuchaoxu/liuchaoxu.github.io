@@ -2,12 +2,24 @@ import { defineConfig } from 'vitepress'
 // 引入自动生成侧边栏插件
 import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar'
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-  // 因为‘https://liuchaoxu.github.io/quick-home’所以需要添加‘/quick-home’如果项目名就是‘liuchaoxu.github.io’则不用
-  // base:"/quick-home",
-  head: [['link', {rel: 'icon', href: '/favicon.ico'}]],
-  lastUpdated: true,
+export default defineConfig({//markdown配置
+  markdown: {
+    image: {
+      // 开启图片懒加载，更加快页面首次加载速度
+      lazyLoading: true,
+    },
+    //行号显示
+    lineNumbers: true,
+  },
 
+  base: '/', //网站部署的路径，默认根目录
+  // base: '/vitepress/', //网站部署到github的vitepress这个仓库里
+  // 部署到非根目录，你的 Fav图标路径 也要变动一下
+  head: [
+      ['link', {rel: 'icon', href: '/favicon.ico'}],//部署到根目录
+      // ['link',{ rel: 'icon', href: '/vitepress/logo.png'}], //部署到vitepress仓库
+  ],
+  lastUpdated: true,
   vite: {
     plugins: [
       AutoSidebar({
