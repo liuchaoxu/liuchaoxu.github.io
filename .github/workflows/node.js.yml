@@ -27,6 +27,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.PRIVATE_TOKEN_GITHUB }}
+          github_token: ${{ secrets.Actions_Token_DEPLOY_TO_PAGES }}
           publish_dir: .vitepress/dist
           ref: gh-pages
