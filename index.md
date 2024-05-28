@@ -12,17 +12,19 @@ hero:
   actions:
     - theme: brand
       text: 关于我
-      link: /markdown/AboutMe
+      link: /markdown/About-me
     - theme: alt
-      text: 开发中
-      link: /markdown/api-examples
+      text: 关于本站
+      link: /markdown/About-site
     - theme: alt
-      text: 开发中
-      link: /markdown/api-examples
+      text: 联系作者
+      link: /markdown/Contact-me
     - theme: alt
       text: docs-README
       link: /docs/README
-      
+    - theme: alt
+      text: 友链
+      link: /docs/friend-link
 
 features:
   - title: 功能 1

@@ -6,6 +6,8 @@ export default defineConfig({
   // 因为‘https://liuchaoxu.github.io/quick-home’所以需要添加‘/quick-home’如果项目名就是‘liuchaoxu.github.io’则不用
   // base:"/quick-home",
   head: [['link', {rel: 'icon', href: '/favicon.ico'}]],
+  lastUpdated: true,
+
   vite: {
     plugins: [
       AutoSidebar({
@@ -17,6 +19,10 @@ export default defineConfig({
   title: "Quick Home",
   description: "Created by liuchaoxu",
   themeConfig: {
+    // 使用浏览器内索引进行模糊全文搜索
+    search: {
+      provider: 'local'
+    },
     // 导航左logo
     logo: "/favicon.ico",
     // https://vitepress.dev/reference/default-theme-config
