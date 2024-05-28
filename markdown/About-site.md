@@ -1,3 +1,16 @@
+---
+#侧边栏
+sidebar: false
+#更改跳转链接
+#  可更改成任意自己想跳转的文章
+prev:
+  text: '关于liuchaoxu'
+  link: './About-me'
+next:
+  text: '联系作者'
+  link: './Contact-me'
+---
+
 # 关于本站
 ## 写在前面
 

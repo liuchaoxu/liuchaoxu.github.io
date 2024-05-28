@@ -11,8 +11,12 @@ export default defineConfig({//markdown配置
     //行号显示
     lineNumbers: true,
   },
+  // 站点地图
+  // sitemap: {
+  //   hostname: 'https://liuchaoxu.github.io',
+  // },
 
-  base: '/', //网站部署的路径，默认根目录
+  //网站部署的路径，默认根目录
   // base: '/vitepress/', //网站部署到github的vitepress这个仓库里
   // 部署到非根目录，你的 Fav图标路径 也要变动一下
   head: [
@@ -39,27 +43,23 @@ export default defineConfig({//markdown配置
     logo: "/favicon.ico",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      {text: '主站', link: '/'},
-      {
-        text: '文章', items: [
-          {text: "xxx", link: "/component"},
-          {text: "xxxxx", link: "/component"}
-        ]
-      },
-      {text: '文档', link:"/component"},
-      {text: '案例', link: '/component'},
-      {text: '标签', link: '/component'}
-    ],
+      {text: '网站首页', link: '/'},
 
-    sidebar: [
+      {text: '工作生活', link:"/docs/工作生活"},
+      {text: '编程记录', link: '/docs/编程记录'},
+      {text: '知识地图', link: '/docs/知识地图'},
+      {text: '文章存档', link: '/docs/文章存档'},
       {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/markdown/api-examples' }
+        text: '关于', items: [
+          {text: "关于liuchaoxu", link: "/markdown/About-me"},
+          {text: "关于本站", link: "/markdown/About-site"},
+          {text: "联系作者", link: "/markdown/Contact-me"},
+          {text: "折腾笔记", link: "/markdown/Fiddle-note"}
         ]
       }
     ],
+
+    sidebar: [],
 
     // 右上角社交链接
     socialLinks: [
