@@ -52,6 +52,6 @@ hero:
 #    details: 还没想好！
 ---
 
-<ProgresBar/>
+
 
 
