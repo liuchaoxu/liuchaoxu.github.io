@@ -29,26 +29,29 @@ hero:
     - theme: alt
       text: 友链
       link: /docs/friend-link
-
-features:
-  - title: 功能 1
-    details: 还没想好！
-  - title: 功能 2
-    details: 还没想好！
-  - title: 功能 3
-    details: 还没想好！
-  - title: 功能 4
-    details: 还没想好！
-  - title: 功能 5
-    details: 还没想好！
-  - title: 功能 6
-    details: 还没想好！
-  - title: 功能 7
-    details: 还没想好！
-  - title: 功能 8
-    details: 还没想好！
-  - title: 功能 9
-    details: 还没想好！
+#
+#features:
+#  - title: 功能 1
+#    details: 还没想好！
+#  - title: 功能 2
+#    details: 还没想好！
+#  - title: 功能 3
+#    details: 还没想好！
+#  - title: 功能 4
+#    details: 还没想好！
+#  - title: 功能 5
+#    details: 还没想好！
+#  - title: 功能 6
+#    details: 还没想好！
+#    
+#  - title: 功能 7
+#    details: 还没想好！
+#  - title: 功能 8
+#    details: 还没想好！
+#  - title: 功能 9
+#    details: 还没想好！
 ---
+
+<ProgresBar/>
 
 

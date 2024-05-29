@@ -1,8 +1,22 @@
 import { defineConfig } from 'vitepress'
+// 按需导入ElementPlus
+// import AutoImport from 'unplugin-auto-import/vite'
+// import Components from 'unplugin-vue-components/vite'
+// import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 // 引入自动生成侧边栏插件
 // import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar'
 // https://vitepress.dev/reference/site-config
-export default defineConfig({//markdown配置
+export default defineConfig({
+  // plugins: [
+  //   // 按需导入ElementPlus
+  //   AutoImport({
+  //     resolvers: [ElementPlusResolver()],
+  //   }),
+  //   Components({
+  //     resolvers: [ElementPlusResolver()],
+  //   }),
+  // ],
+//markdown配置
   markdown: {
     image: {
       // 开启图片懒加载，更加快页面首次加载速度
