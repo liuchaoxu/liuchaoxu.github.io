@@ -6,8 +6,6 @@ import './style/index.css'
 // 全局引入自定义组件
 import AboutMe from "../component/AboutMe.vue";
 
-
-import 'element-plus/dist/index.css'
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
