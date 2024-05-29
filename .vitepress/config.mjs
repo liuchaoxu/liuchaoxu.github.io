@@ -12,9 +12,9 @@ export default defineConfig({//markdown配置
     lineNumbers: true,
   },
   // 站点地图
-  // sitemap: {
-  //   hostname: 'https://liuchaoxu.github.io',
-  // },
+  sitemap: {
+    hostname: 'https://liuchaoxu.github.io',
+  },
 
   //网站部署的路径，默认根目录
   // base: '/vitepress/', //网站部署到github的vitepress这个仓库里
