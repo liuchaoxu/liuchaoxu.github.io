@@ -1,7 +1,11 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+#添加 Bing HTML Meta 标记
+head:
+  - - meta
+    - name: "msvalidate.01"
+      content: "2E6A808EF7AA0EED7BBF46B648567F05"
 hero:
   name: "Quick Home"
   text: "Created by liuchaoxu"
@@ -46,13 +50,5 @@ features:
   - title: 功能 9
     details: 还没想好！
 ---
-<html>
-<head>
 
-<meta name="msvalidate.01" content="2E6A808EF7AA0EED7BBF46B648567F05" />
-</head>
-<body>
-
-</body>
-</html>
 
