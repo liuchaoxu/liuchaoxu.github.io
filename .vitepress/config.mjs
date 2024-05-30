@@ -3,10 +3,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
 //markdown配置
   markdown: {
-    image: {
-      // 开启图片懒加载，更加快页面首次加载速度
-      lazyLoading: true,
-    },
+    // image: {
+      // 开启图片懒加载，更加快页面首次加载速度，图片较多时开启
+      // lazyLoading: true,
+    // },
     //行号显示
     lineNumbers: true,
   },
