@@ -62,6 +62,7 @@ export default defineConfig({
       "/docs/MySQL": {
         items: [
           {text: 'MySQL索引', link:"/docs/MySQL/MySQL索引"},
+          {text: 'MySQL索引', link:"/docs/MySQL/事物_隔离级别"},
 
         ]
       },
