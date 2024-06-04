@@ -3,8 +3,12 @@ import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import './style/index.css'
+
+
+
 // 全局引入自定义组件
 import AboutMe from "../component/AboutMe.vue";
+import MyVideo from "../component/MyVideo.vue";
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -16,6 +20,8 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component("AboutMe", AboutMe);
+    app.component("MyVideo", MyVideo);
+
     // ...
   }
 }

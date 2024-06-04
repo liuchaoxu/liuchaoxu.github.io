@@ -1,64 +1,52 @@
 {
-  "hash": "ee80e7d9",
+  "hash": "937b5121",
   "configHash": "3b9c1da7",
-  "lockfileHash": "944cf5bc",
-  "browserHash": "eebecfac",
+  "lockfileHash": "810f2e44",
+  "browserHash": "5c2520c4",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "9f2073d8",
+      "fileHash": "0c48f65d",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "0e75beb9",
+      "fileHash": "e36972cf",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "08c829d3",
+      "fileHash": "dd99c8b4",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "23783735",
+      "fileHash": "a1caed03",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "65f0c477",
+      "fileHash": "5dba6b4c",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "0f6ef4cb",
-      "needsInterop": false
-    },
-    "element-plus": {
-      "src": "../../../node_modules/element-plus/es/index.mjs",
-      "file": "element-plus.js",
-      "fileHash": "f85df478",
+      "fileHash": "e1366cf7",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-37AN3SGZ": {
-      "file": "chunk-37AN3SGZ.js"
+    "chunk-7K4EPTTS": {
+      "file": "chunk-7K4EPTTS.js"
     },
-    "chunk-Z5MM7V3J": {
-      "file": "chunk-Z5MM7V3J.js"
-    },
-    "chunk-SWYVVCLY": {
-      "file": "chunk-SWYVVCLY.js"
-    },
-    "chunk-LQ2VYIYD": {
-      "file": "chunk-LQ2VYIYD.js"
+    "chunk-JWA4H7QR": {
+      "file": "chunk-JWA4H7QR.js"
     }
   }
 }

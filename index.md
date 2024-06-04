@@ -53,5 +53,8 @@ hero:
 ---
 
 
+<MyVideo src="./video/video1.mp4" />
+
+
 
 
