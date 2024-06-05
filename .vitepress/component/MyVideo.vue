@@ -48,6 +48,40 @@ export default {
       mutex: true, //阻止多个播放器同时播放，当前播放器播放时暂停其他播放器
       chromecast:false, //启用 Chromecast
       logo: "https://liuchaoxu.github.io/image/透明.png",
+      // subtitle: {  //字幕
+      //   url: 'dplayer.vtt',
+      //   type: 'webvtt',
+      //   fontSize: '25px',
+      //   bottom: '10%',
+      //   color: '#b7daff',
+      // },
+      // danmaku: {  //弹幕
+      //   id: '9E2E3368B56CDBB4',
+      //   api: 'https://api.prprpr.me/dplayer/',
+      //   token: 'tokendemo',
+      //   maximum: 1000,
+      //   addition: ['https://api.prprpr.me/dplayer/v3/bilibili?aid=1543137414'],
+      //   user: 'DIYgod',
+      //   bottom: '15%',
+      //   unlimited: true,
+      //   speedRate: 0.5,
+      // },
+      contextmenu: [  //自定义右键菜单
+        {
+          text: '查看本站作者GitHub',
+          link: 'https://github.com/liuchaoxu',
+        }
+      ],
+      highlight: [
+        {
+          time: 20,
+          text: '这是第 20 秒',
+        },
+        {
+          time: 36,
+          text: '这是第 36 秒',
+        },
+      ],
     });
   },
 
