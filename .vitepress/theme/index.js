@@ -25,8 +25,8 @@ export default {
     app.component('MyVideo', defineAsyncComponent(() =>
         import('../component/MyVideo.vue')
     ));
-    app.component('MyComment', defineAsyncComponent(() =>
-        import('../component/MyComment.vue')
+    app.component('VueUtterances', defineAsyncComponent(() =>
+        import('../component/VueUtterances.vue')
     ));
     // ...
 
