@@ -30,7 +30,7 @@ export default {
     app.component("AboutMe", AboutMe);
     // app.component("MyVideo", MyVideo);
     // app.component("MdVideo", MdVideo);
-
+    // 异步加载组件
     app.component('MyVideo', defineAsyncComponent(() =>
         import('../component/MyVideo.vue')
     ))
