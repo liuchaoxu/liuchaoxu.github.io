@@ -52,7 +52,7 @@ hero:
 #    details: 还没想好！
 ---
 
-<MyVideo src="https://liuchaoxu.github.io/video/video1.mp4" pic="https://liuchaoxu.github.io/image/moren.jpg" />
+<MyVideo src="./video/video1.mp4" pic="./image/moren.jpg" />
 
 [//]: # (<MdVideo src="https://liuchaoxu.github.io/video/video1.mp4" pic="https://liuchaoxu.github.io/image/moren.jpg" />)
 
