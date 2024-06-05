@@ -53,7 +53,7 @@ hero:
 ---
 
 
-<MyVideo src="https://liuchaoxu.github.io/video/video1.mp4" />
+<MyVideo src="https://liuchaoxu.github.io/video/video1.mp4" pic="https://liuchaoxu.github.io/image/moren.jpg" />
 
 
 

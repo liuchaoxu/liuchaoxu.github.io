@@ -17,7 +17,8 @@ import DPlayer from 'dplayer';
 export default {
   name: 'MyVideo',
   props: {
-    src: String
+    src: String,
+    pic: String
   },
   data() {
     return {
@@ -33,6 +34,7 @@ export default {
       container: document.getElementById('dplayer'),
       video: {
         url: this.src, //视频地址
+        pic: this.pic, //视频封面
       },
       autoplay: false, //是否自动播放
       theme: '#d83c07', //主题色
@@ -41,8 +43,10 @@ export default {
       screenshot: false, //是否开启截图
       hotkey: true, //是否开启热键
       preload: 'auto', //视频是否预加载
-      volume: 0.7, //默认音量
+      volume: 1, //默认音量
       mutex: true, //阻止多个播放器同时播放，当前播放器播放时暂停其他播放器
+      chromecast:false, //启用 Chromecast
+      logo: "https://liuchaoxu.github.io/image/透明.png",
     });
   },
 
