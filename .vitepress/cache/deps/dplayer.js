@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "./chunk-Y2F7D3TJ.js";
+} from "./chunk-LQ2VYIYD.js";
 
 // node_modules/dplayer/dist/DPlayer.min.js
 var require_DPlayer_min = __commonJS({

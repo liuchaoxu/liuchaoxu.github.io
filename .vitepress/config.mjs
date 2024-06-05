@@ -1,6 +1,13 @@
 import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    // Vite 配置选项
+  },
+  vue: {
+
+    // @vitejs/plugin-vue 选项
+  },
 //markdown配置
   markdown: {
     // image: {

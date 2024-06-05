@@ -1,49 +1,55 @@
 {
-  "hash": "77f68604",
+  "hash": "4e230f3a",
   "configHash": "3b9c1da7",
-  "lockfileHash": "3cc696fd",
-  "browserHash": "fb2e4ea5",
+  "lockfileHash": "9533ff4b",
+  "browserHash": "a6ca0763",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "5fa17d6a",
+      "fileHash": "69f99a50",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "3d446a25",
+      "fileHash": "152c3b28",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "4785c03d",
+      "fileHash": "8f389e4d",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "9d7dcf32",
+      "fileHash": "56cc841c",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "95daf5f8",
+      "fileHash": "6be5e7be",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "75ee2e91",
+      "fileHash": "19617030",
+      "needsInterop": false
+    },
+    "@videojs-player/vue": {
+      "src": "../../../node_modules/@videojs-player/vue/dist/videojs-player.esm.js",
+      "file": "@videojs-player_vue.js",
+      "fileHash": "69aa54c4",
       "needsInterop": false
     },
     "dplayer": {
       "src": "../../../node_modules/dplayer/dist/DPlayer.min.js",
       "file": "dplayer.js",
-      "fileHash": "c8a9dcac",
+      "fileHash": "46a975be",
       "needsInterop": true
     }
   },
@@ -54,8 +60,8 @@
     "chunk-JWA4H7QR": {
       "file": "chunk-JWA4H7QR.js"
     },
-    "chunk-Y2F7D3TJ": {
-      "file": "chunk-Y2F7D3TJ.js"
+    "chunk-LQ2VYIYD": {
+      "file": "chunk-LQ2VYIYD.js"
     }
   }
 }
