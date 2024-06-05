@@ -8,8 +8,8 @@ head:
       content: "2E6A808EF7AA0EED7BBF46B648567F05"
 hero:
   name: "Quick Home"
-  text: "Created by liuchaoxu"
-  tagline: 欢迎！
+  text: ""
+  tagline: ""
   image:
     src: /image/主页.png
     alt: VitePress
