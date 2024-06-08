@@ -52,9 +52,4 @@ hero:
 #    details: 还没想好！
 ---
 
-[//]: # (<MyVideo src="./video/video1.mp4" pic="./image/moren.jpg" />)
-[//]: # (<MyVideo src="https://media.w3.org/2010/05/sintel/trailer.mp4" pic="./image/moren.jpg" />)
-
-
-
-
+<video-player />
