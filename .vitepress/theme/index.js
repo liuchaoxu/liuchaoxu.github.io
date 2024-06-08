@@ -6,7 +6,7 @@ import './style/index.css'
 
 import { defineAsyncComponent } from 'vue'
 // 全局引入自定义组件
-import AboutMe from "../component/AboutMe.vue";
+import AboutMeTop from "../component/AboutMeTop.vue";
 
 // 直接引入会在打包时调用到浏览器使用函数，在node中找不到全局对象  采用defineAsyncComponent异步  加载组件时再调用解决无法build问题
 // import MyVideo from "../component/MyVideo.vue";
@@ -20,7 +20,7 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    app.component("AboutMe", AboutMe);
+    app.component("AboutMeTop", AboutMeTop);
     // 异步加载组件
     app.component('MyVideo', defineAsyncComponent(() =>
         import('../component/MyVideo.vue')
