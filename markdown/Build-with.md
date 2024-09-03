@@ -11,4 +11,3 @@ next: false
 
 # 建站技术选型
 
-DPlayer +  VitePress +JavaScript
